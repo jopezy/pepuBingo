@@ -1,6 +1,5 @@
 # Original code by Helana Brock
 # from https://codereview.stackexchange.com/questions/229872/python-bingo-game-that-stores-card-in-a-dictionary
-# heavily machete'd by Johannes Vahala for ALM Partners PePu Arvonta
 
 import random
 
