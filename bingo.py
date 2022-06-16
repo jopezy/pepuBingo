@@ -3,7 +3,7 @@
 
 import random
 
-random_draw_list = random.sample(range(1, 76), 75)
+#random_draw_list = random.sample(range(1, 76), 75)
 #dont need this
 
 def generate_card():
@@ -21,7 +21,7 @@ def generate_card():
     _max = 15
 
     for letter in 'BINGO':
-        card[letter] = random.sample(range(_min, _max), 5)
+        card[letter] = random.sample(range(_min, _max+1), 5)
         _min += 15
         _max += 15
 
